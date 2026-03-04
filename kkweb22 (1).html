@@ -1,0 +1,189 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Hiwot Kinfe · Developer Portfolio</title> 
+  <style>
+  
+  body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+    background: #C2E0F0;
+    color: #333;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  header h1 {
+    margin: 0 0 0.3rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #026B99; 
+  }
+
+  header h2 {
+    margin: 0.2rem 0 1rem;
+    font-weight: 400;
+    color: #555;
+  }
+
+  header p a {
+    color: #E66A40;
+    text-decoration: underline;
+    margin: 0 0.3rem;
+  }
+
+  section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #D6E6F2; 
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+
+  section h2 {
+    margin-top: 0;
+    color: #026B99; 
+    border-bottom: 2px solid #DFA450; 
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+
+  .skills .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    flex: 1;
+    min-width: 220px;
+    padding: 1rem;
+    border-radius: 12px;
+    background: #E0EDF4;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #E66A40; 
+  }
+
+  .card ul, .card ol {
+    padding-left: 1.2rem;
+  }
+
+  .projects .project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 6px solid #026B99;
+    border-radius: 12px;
+    background: #E9F2F7;
+  }
+
+  .projects a {
+    color: #E66A40;
+    text-decoration: none;
+  }
+
+  .projects a:hover {
+    text-decoration: underline;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid #A0A0A0;
+    margin: 2rem 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  footer a {
+    color: #026B99;
+    margin: 0 0.3rem;
+    text-decoration: none;
+  }
+
+</style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <header> 
+    <h1>Hiwot Kinfe</h1> 
+    <h2>Developer Portfolio </h2> 
+    <p> <a href="#">GitHub</a> · <a href="#">LinkedIn</a> · <a href="#">Contact</a> </p> 
+   </header> 
+   <section class="skills"> 
+    <h2>Skills &amp; Learning Path</h2> 
+    <div class="cards"> 
+     <div class="card"> 
+      <h3>Core Skills</h3> 
+      <ul> 
+       <li>HTML5 / CSS3 (Flex)</li> 
+       <li>JavaScript (ES6+) · React</li> 
+       <li>Python / Flask · Node.js</li> 
+       <li>SQL · PostgreSQL, MongoDB</li> 
+      </ul> 
+     </div> 
+     <div class="card"> 
+      <h3>Learning Path</h3> 
+      <ol> 
+       <li>Frontend Basics + Vanilla JS</li> 
+       <li>React &amp; State Management</li> 
+       <li>Backend &amp; Databases</li> 
+       <li>DevOps (Docker, AWS) – in progress</li> 
+      </ol> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="projects"> 
+    <h2>Projects</h2> 
+    <div class="project"> 
+     <h3><a href="#">Taskflow · Team Board</a> </h3> 
+     <p><strong>Full-stack:</strong> React, Node, Socket.io, PostgreSQL</p> 
+     <ul> 
+      <li>Real-time updates with WebSockets</li> 
+      <li>Drag-drop columns · <a href="#">Code Repo</a></li> 
+      <li>Role-based access (admin, member)</li> 
+     </ul> 
+    </div> 
+    <div class="project"> 
+     <h3><a href="#">Weather-pipe CLI</a> <sub>Go</sub></h3> 
+     <p><strong>Go + OpenWeather API</strong> – terminal weather</p> 
+     <ol> 
+      <li>Geo lookup via OpenStreetMap</li> 
+      <li>Rate-limited API calls</li> 
+      <li>JSON / plain output · <a href="#">GitHub</a></li> 
+     </ol> 
+    </div> 
+    <div class="project"> 
+     <h3><a href="#">Devlog · Static Site</a> &lt;</h3> 
+     <p>Markdown blog with <strong>minimal CSS</strong> (text-only edition)</p> 
+     <ul> 
+      <li>Tag/category filter</li> 
+      <li>Syntax highlighting · <a href="#">Live Demo</a></li> 
+      <li>RSS &amp; SEO basics</li> 
+     </ul> 
+    </div> 
+   </section> 
+   <hr> 
+   <footer> <a href="#">Resume</a> · <a href="#">Email</a> · <a href="#">GitHub</a>
+    <br> <sub>© 2025 Hiwot Kinfe · Developer Portfolio</sub> 
+   </footer> 
+  </div> 
+ 
+</body></html>
